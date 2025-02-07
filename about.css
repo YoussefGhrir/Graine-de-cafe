@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Quicksand", sans-serif;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about-content div {
+    max-width: 800px;
+}
+.about-content p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+.video-container {
+    margin-top: 20px; /* Espace au-dessus de la vidéo */
+    text-align: center; /* Centre la vidéo */
+}
+video {
+    width: 100%; /* S'adapte à la largeur de son conteneur */
+    height: auto; /* Maintient le ratio d'aspect */
+    border-radius: 10px; /* Coins arrondis pour un rendu esthétique */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombre portée pour un effet de profondeur */
+}

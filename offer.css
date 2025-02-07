@@ -1,0 +1,103 @@
+#offers {
+    padding: 2rem 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.title {
+    margin-bottom: 2rem;
+}
+
+.title h2 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.title p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.offers-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    justify-items: center; /* Centre les cartes horizontalement */
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Utilise toute la largeur disponible */
+    max-width: 300px; /* Limite la largeur de la carte */
+    margin: 0 auto; /* Centrer la carte dans son conteneur */
+}
+
+/* Couleurs de fond pour les cartes */
+.card:nth-child(1) {
+    background-color: #FFEDD5; /* Rose clair */
+}
+
+.card:nth-child(2) {
+    background-color: #FFABAB; /* Rouge clair */
+}
+
+.card:nth-child(3) {
+    background-color: #FFC3A0; /* Pêche */
+}
+
+.card:nth-child(4) {
+    background-color: #D5AAFF; /* Lavande */
+}
+
+.card:nth-child(5) {
+    background-color: #85E3FF; /* Bleu clair */
+}
+
+.card:nth-child(6) {
+    background-color: #B9FBC0; /* Vert menthe */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333; /* Couleur de texte pour le titre */
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+.card p {
+    color: #333;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .title h2 {
+        font-size: 1.5rem;
+    }
+    .title p {
+        font-size: 0.875rem;
+    }
+}

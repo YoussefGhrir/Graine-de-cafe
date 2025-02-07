@@ -199,55 +199,6 @@ header * {
   margin-bottom: 20px;
 }
 
-/* Offers Section Start */
-#offers {
-  height: 80vh;
-  background: url("./img/offer-background.jpg") center center/cover fixed;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-#offers h2 {
-  color: #e4b95b;
-}
-
-#offers .title p {
-  color: #fff;
-  font-weight: 500;
-}
-
-#offers .offers-items {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-}
-
-#offers .offers-items img {
-  width: 200px;
-}
-
-#offers .offers-items h3 {
-  font-size: 25px;
-  color: #fff;
-  margin: 15px 0;
-}
-
-#offers .offers-items p {
-  color: #fff;
-  font-size: 14px;
-  padding: 0 20px;
-  font-weight: 300;
-  margin-bottom: 15px;
-}
-
-#offers .offers-items span {
-  font-weight: 600;
-  font-size: 18px;
-  margin-left: 5px;
-}
-/* Offers Section End */
 
 /* Menu Section Start */
 #menu {

@@ -397,11 +397,26 @@ form button {
 
 /* Footer Start */
 #footer {
-  background-color: #383848;
-  text-align: center;
-  color: #fff;
-  padding: 15px 0;
-  font-size: 14px;
+  background-color: #383848; /* Couleur de fond */
+  text-align: center; /* Centrer le texte */
+  color: #fff; /* Couleur du texte */
+  padding: 15px 0; /* Espacement en haut et en bas */
+  font-size: 14px; /* Taille de la police */
+}
+
+#footer a {
+  color: #0077B5; /* Couleur du lien */
+  text-decoration: none; /* Enlever le soulignement */
+}
+
+#footer a:hover {
+  text-decoration: underline; /* Souligner au survol */
+}
+
+@media (max-width: 600px) {
+  #footer {
+      font-size: 12px; /* Réduire la taille de la police sur mobile */
+  }
 }
 /* Footer End */
 
